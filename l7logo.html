@@ -18,6 +18,7 @@
   .l7logo * {
     background-color: #EEE;
     position: absolute;
+    display: block;
   }
 
   .l7logo .l-left {
@@ -29,10 +30,11 @@
   }
 
   .l7logo .l-bottom {
-    width: 35%;
+    width: 45%;
     height: 10%;
     bottom: 5%;
-    left: 15%;
+    left: 5%;
+    border-radius: 0 0 0 100000px;
   }
 
   .l7logo .a-left {
@@ -43,25 +45,22 @@
     border-radius: 100000px 0 0 0;
   }
 
-  .l7logo .a-top, .l7logo .b-top {
-    width: 15%;
-    height: 10%;
-    top: 32%;
-  }
-
-  .l7logo .a-top {
-    left: 30%;
-  }
-
-  .l7logo .b-top {
-    right: 30%;
-  }
-
   .l7logo .a-serif {
     width: 10%;
-    height: 10%;
+    height: 20%;
     bottom: 22%;
     left: 40%;
+  }
+
+  .l7logo .ab-bottom, .l7logo .ab-top {
+    width: 60%;
+    height: 10%;
+  }
+
+  .l7logo .ab-top {
+    top: 32%;
+    left: 20%;
+    border-radius: 100000px 0 0 0;
   }
 
   .l7logo .ab-middle {
@@ -71,25 +70,17 @@
     left: 45%;
   }
 
+  .l7logo .ab-bottom {
+    bottom: 32%;
+    left: 20%;
+    border-radius: 0 0 100000px 0;
+  }
+
   .l7logo .b-serif {
     width: 10%;
-    height: 10%;
+    height: 20%;
     top: 22%;
     right: 40%;
-  }
-
-  .l7logo .a-bottom, .l7logo .b-bottom {
-    width: 15%;
-    height: 10%;
-    bottom: 32%;
-  }
-
-  .l7logo .a-bottom {
-    left: 30%;
-  }
-
-  .l7logo .b-bottom {
-    right: 30%;
   }
 
   .l7logo .b-right {
@@ -109,10 +100,11 @@
   }
 
   .l7logo .seven-top {
-    width: 35%;
+    width: 45%;
     height: 10%;
     top: 5%;
-    right: 15%;
+    right: 5%;
+    border-radius: 0 100000px 0 0;
   }
 </style>
 
@@ -120,14 +112,12 @@
   <span class="l-left"></span>
   <span class="l-bottom"></span>
   <span class="a-left"></span>
-  <span class="a-top"></span>
-  <span class="a-bottom"></span>
   <span class="a-serif"></span>
+  <span class="ab-top"></span>
   <span class="ab-middle"></span>
+  <span class="ab-bottom"></span>
   <span class="b-serif"></span>
-  <span class="b-top"></span>
   <span class="b-right"></span>
-  <span class="b-bottom"></span>
   <span class="seven-top"></span>
   <span class="seven-right"></span>
 </div>
